@@ -18,8 +18,20 @@
   padding: 10px;
 }
 
-
-
+/* Style pour le bouton TTS */
+.tts-button {
+  background-color: var(--default-case-color);
+  color: var(--light-text-color);
+  transition: background-color 0.2s, transform 0.1s;
+  display: block;
+  width: 250px; /* Exemple de largeur */
+  margin-left: 77%;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.tts-button:hover {
+  background-color: var(--hovered-case-color);
+}
 /* Style pour le bouton de génération d'idée */
 .idea-button {
   background-color: var(--default-case-color);
@@ -38,3 +50,4 @@
 .formatted-text {
   white-space: normal;
 }
+

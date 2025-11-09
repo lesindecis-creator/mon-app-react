@@ -92,11 +92,9 @@ const apartments = {
 const App = () => {
   const [currentPage, setCurrentPage] = useState("home");
   const [selectedApt, setSelectedApt] = useState(null);
-  const [generatedIdea, setGeneratedIdea] = useState("");
 
   const handlePageNavigation = (aptNumber) => {
-    setGeneratedIdea("");
-
+  
     switch (aptNumber) {
       case null:
         setCurrentPage("home");
@@ -124,9 +122,7 @@ const App = () => {
     <Apartmentpage
       handlePageNavigation={handlePageNavigation}
       apartments={apartments}
-      generatedIdea={generatedIdea}
       selectedApt={selectedApt}
-      setGeneratedIdea={setGeneratedIdea}
     />
   );
 

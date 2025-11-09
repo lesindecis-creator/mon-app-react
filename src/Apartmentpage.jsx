@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from "react";
-import { ArrowLeft, Volume2, Wand2, Loader2, AlignCenter } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
 import "./Apartmentpage.css"
 
 const apiKey = "";
@@ -1507,237 +1507,129 @@ const processText = (text) => {
   return withStrong;
 };
 
+// Fonction pour nettoyer le texte pour le TTS
+const cleanTextForSpeech = (htmlText) => {
+  // Créer un élément temporaire pour parser le HTML
+  const temp = document.createElement('div');
+  temp.innerHTML = htmlText;
+  
+  // Extraire le texte pur
+  let cleanText = temp.textContent || temp.innerText || '';
+  
+  // Remplacer les sauts de ligne multiples par des pauses
+  cleanText = cleanText.replace(/\n\n+/g, '. ');
+  cleanText = cleanText.replace(/\n/g, ' ');
+  
+  // Nettoyer les espaces multiples
+  cleanText = cleanText.replace(/\s+/g, ' ').trim();
+  
+  return cleanText;
+};
+
 // Application de la fonction de traitement au moment de la définition des textes
 const apartmentTexts = Object.keys(rawApartmentTexts).reduce((acc, key) => {
   acc[key] = processText(rawApartmentTexts[key]);
   return acc;
 }, {});
 
-const Apartmentpage = ({ handlePageNavigation, setGeneratedIdea, generatedIdea, selectedApt, apartments }) => {
+const Apartmentpage = ({ handlePageNavigation, selectedApt, apartments }) => {
   const [isSpeaking, setIsSpeaking] = useState(false);
-  const [audioContext, setAudioContext] = useState(null);
-  const [isLoadingIdea, setIsLoadingIdea] = useState(false);
+  const [speechSupported, setSpeechSupported] = useState(true);
 
   const currentText = apartmentTexts[selectedApt] || "";
   const hasContent = apartments[selectedApt]?.hasText;
 
-  const speakApartmentText = useCallback(
-    async (text) => {
-      if (isSpeaking || !text || !audioContext) return;
-
-      setIsSpeaking(true);
-
-      // Retirer les balises HTML/JSX pour la lecture TTS
-      // On retire <br/> et <strong>
-      const cleanText = text.replace(/<br\s*\/?>/gi, " ").replace(/<\/?strong>/gi, "");
-
-      const prompt = `Say in a smooth, calm, and informative tone: ${cleanText}`;
-
-      const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-tts:generateContent?key=${apiKey}`;
-
-      const payload = {
-        contents: [{ parts: [{ text: prompt }] }],
-        generationConfig: {
-          responseModalities: ["AUDIO"],
-          speechConfig: {
-            voiceConfig: {
-              prebuiltVoiceConfig: { voiceName: "Charon" }, // Voix informative et ferme
-            },
-          },
-        },
-      };
-
-      let response;
-      let retries = 0;
-      const maxRetries = 3;
-      const baseDelay = 1000;
-
-      while (retries < maxRetries) {
-        try {
-          response = await fetch(apiUrl, {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify(payload),
-          });
-
-          if (response.ok) {
-            const result = await response.json();
-            const part = result.candidates?.[0]?.content?.parts?.[0];
-            const audioData = part?.inlineData?.data;
-            const mimeType = part?.inlineData?.mimeType;
-
-            if (audioData && mimeType && mimeType.startsWith("audio/")) {
-              const pcmData = base64ToArrayBuffer(audioData);
-              const pcm16 = new Int16Array(pcmData);
-              // Le taux d'échantillonnage doit être extrait ou connu. TTS Gemini utilise généralement 24000
-              const sampleRate = 24000;
-
-              const wavBlob = pcmToWav(pcm16, sampleRate);
-              const audioUrl = URL.createObjectURL(wavBlob);
-
-              const audio = new Audio(audioUrl);
-              audio.onended = () => setIsSpeaking(false);
-              audio.onerror = () => {
-                console.error("Audio playback error.");
-                setIsSpeaking(false);
-              };
-              audio.play();
-            } else {
-              console.error("No valid audio data received from TTS API.");
-              setIsSpeaking(false);
-            }
-            break; // Sortir de la boucle si succès
-          }
-        } catch (error) {
-          console.error(`Attempt ${retries + 1} failed:`, error);
-        }
-        retries++;
-        if (retries < maxRetries) {
-          await new Promise((resolve) => setTimeout(resolve, baseDelay * Math.pow(2, retries)));
-        }
-      }
-
-      if (!response || !response.ok) {
-        console.error("Failed to fetch TTS audio after multiple retries.");
-        setIsSpeaking(false);
-      }
-    },
-    [isSpeaking, audioContext]
-  );
-
-  const generateSceneIdea = useCallback(
-    async (aptNumber) => {
-      if (isLoadingIdea) return;
-
-      setIsLoadingIdea(true);
-      setGeneratedIdea("");
-
-      // Le niveau dans l'immeuble peut influencer la scène
-      const floor = aptNumber.length === 3 ? aptNumber.charAt(0) : 0;
-      const isRDC = aptNumber === "RDC";
-
-      const systemPrompt =
-        "Agissez comme un écrivain de fiction minimaliste et atmosphérique. Votre objectif est de fournir une courte description (maximum 3 phrases) d'une scène ou d'une ambiance qui pourrait servir de point de départ pour une histoire se déroulant dans l'appartement spécifié. N'utilisez pas de guillemets. Répondez uniquement en français.";
-
-      let userQuery = `L'appartement ${aptNumber} est vide, situé au niveau ${floor}. Générez une courte ambiance pour cet appartement.`;
-      if (isRDC) {
-        userQuery = `L'appartement ${aptNumber} est le Rez-de-Chaussée de cet immeuble. Générez une courte ambiance pour ce lieu (peut être un commerce ou un lieu de passage).`;
-      }
-
-      const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
-
-      const payload = {
-        contents: [{ parts: [{ text: userQuery }] }],
-        systemInstruction: { parts: [{ text: systemPrompt }] },
-      };
-
-      let response;
-      let retries = 0;
-      const maxRetries = 3;
-      const baseDelay = 1000;
-
-      while (retries < maxRetries) {
-        try {
-          response = await fetch(apiUrl, {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify(payload),
-          });
-
-          if (response.ok) {
-            const result = await response.json();
-            const text =
-              result.candidates?.[0]?.content?.parts?.[0]?.text || "Impossible de générer une idée pour le moment.";
-            setGeneratedIdea(text);
-            break; // Sortir de la boucle si succès
-          }
-        } catch (error) {
-          console.error(`Attempt ${retries + 1} failed:`, error);
-        }
-        retries++;
-        if (retries < maxRetries) {
-          await new Promise((resolve) => setTimeout(resolve, baseDelay * Math.pow(2, retries)));
-        }
-      }
-
-      if (!response || !response.ok) {
-        setGeneratedIdea("Erreur de connexion avec l'API. Veuillez réessayer.");
-      }
-
-      setIsLoadingIdea(false);
-    },
-    [isLoadingIdea]
-  );
-
+    // Vérifier si le navigateur supporte le TTS
   useEffect(() => {
-    if (typeof window !== "undefined" && !audioContext) {
-      setAudioContext(new (window.AudioContext || window.webkitAudioContext)());
+    if (!('speechSynthesis' in window)) {
+      setSpeechSupported(false);
+      console.warn('La synthèse vocale n\'est pas supportée par ce navigateur');
     }
-  }, [audioContext]);
+  }, []);
+
+  // Nettoyer la lecture en cours lors du changement de page
+  useEffect(() => {
+    return () => {
+      if (window.speechSynthesis) {
+        window.speechSynthesis.cancel();
+      }
+    };
+  }, [selectedApt]);
+
+  const handleTextToSpeech = useCallback(() => {
+    if (!speechSupported) {
+      alert('La lecture audio n\'est pas supportée par votre navigateur.');
+      return;
+    }
+
+    // Si déjà en cours de lecture, arrêter
+    if (isSpeaking) {
+      window.speechSynthesis.cancel();
+      setIsSpeaking(false);
+      return;
+    }
+
+    // Déterminer le texte à lire
+    let textToRead = '';
+    
+    if (selectedApt === "Fleuriste") {
+      textToRead = "Le fleuriste au rez-de-chaussée est inoccupé pour le moment, mais on peut imaginer l'odeur des roses et des lilas, et le bruit doux des ciseaux coupant les tiges.";
+    } else if (hasContent) {
+      textToRead = cleanTextForSpeech(currentText);
+    } else {
+      textToRead = "En attente de votre écriture.";
+    }
+
+    if (!textToRead) {
+      alert('Aucun texte à lire.');
+      return;
+    }
+
+    // Créer l'utterance
+    const utterance = new SpeechSynthesisUtterance(textToRead);
+    
+    // Configuration de la voix (français si disponible)
+    const voices = window.speechSynthesis.getVoices();
+    const frenchVoice = voices.find(voice => voice.lang.startsWith('fr'));
+    if (frenchVoice) {
+      utterance.voice = frenchVoice;
+    }
+    
+    utterance.lang = 'fr-FR';
+    utterance.rate = 0.9; // Vitesse de lecture (0.1 à 10)
+    utterance.pitch = 1; // Hauteur de la voix (0 à 2)
+    utterance.volume = 1; // Volume (0 à 1)
+
+    // Gérer les événements
+    utterance.onstart = () => {
+      setIsSpeaking(true);
+    };
+
+    utterance.onend = () => {
+      setIsSpeaking(false);
+    };
+
+    utterance.onerror = (event) => {
+      console.error('Erreur de synthèse vocale:', event);
+      setIsSpeaking(false);
+      alert('Une erreur est survenue lors de la lecture.');
+    };
+
+    // Lancer la lecture
+    window.speechSynthesis.speak(utterance);
+  }, [selectedApt, currentText, hasContent, isSpeaking, speechSupported]);
 
   const goHome = () => {
-    setIsLoadingIdea(false);
-    setIsSpeaking(false);
+     // Arrêter la lecture si en cours
+    if (isSpeaking) {
+      window.speechSynthesis.cancel();
+      setIsSpeaking(false);
+    }
     handlePageNavigation(null);
   };
 
-  // Utility: Converts base64 PCM audio data to a WAV Blob
-  const base64ToArrayBuffer = (base64) => {
-    const binaryString = atob(base64);
-    const len = binaryString.length;
-    const bytes = new Uint8Array(len);
-    for (let i = 0; i < len; i++) {
-      bytes[i] = binaryString.charCodeAt(i);
-    }
-    return bytes.buffer;
-  };
-
-  // Utility: Converts raw PCM audio data (Int16Array) into a WAV Blob
-  const pcmToWav = (pcm16, sampleRate = 24000) => {
-    const pcmData = pcm16.buffer;
-    const numChannels = 1;
-    const bitsPerSample = 16;
-    const byteRate = sampleRate * numChannels * (bitsPerSample / 8);
-    const blockAlign = numChannels * (bitsPerSample / 8);
-
-    const buffer = new ArrayBuffer(44 + pcmData.byteLength);
-    const view = new DataView(buffer);
-
-    // RIFF identifier 'RIFF'
-    view.setUint32(0, 0x52494646, false);
-    // file length
-    view.setUint32(4, 36 + pcmData.byteLength, true);
-    // RIFF type 'WAVE'
-    view.setUint32(8, 0x57415645, false);
-    // format chunk identifier 'fmt '
-    view.setUint32(12, 0x666d7420, false);
-    // format chunk length
-    view.setUint32(16, 16, true);
-    // sample format (raw PCM)
-    view.setUint16(20, 1, true);
-    // channel count
-    view.setUint16(22, numChannels, true);
-    // sample rate
-    view.setUint32(24, sampleRate, true);
-    // byte rate (SampleRate * Channels * BitsPerSample/8)
-    view.setUint32(28, byteRate, true);
-    // block align (Channels * BitsPerSample/8)
-    view.setUint16(32, blockAlign, true);
-    // bits per sample
-    view.setUint16(34, bitsPerSample, true);
-    // data chunk identifier 'data'
-    view.setUint32(36, 0x64617461, false);
-    // data chunk length
-    view.setUint32(40, pcmData.byteLength, true);
-
-    // Write the PCM data
-    const pcmBytes = new Uint8Array(pcmData);
-    for (let i = 0; i < pcmData.byteLength; i++) {
-      view.setInt8(44 + i, pcmBytes[i]);
-    }
-
-    return new Blob([view], { type: "audio/wav" });
-  };
+// Afficher le bouton TTS uniquement pour les pages avec contenu
+  const showTTSButton = (hasContent || selectedApt === "Fleuriste" || selectedApt === "RDC") && selectedApt !== "Prompt";
 
   return (
     <div className='apartment-page-bg'>
@@ -1760,38 +1652,24 @@ const Apartmentpage = ({ handlePageNavigation, setGeneratedIdea, generatedIdea, 
             : `Appartement ${selectedApt}`}
         </h1>
 
-        {/* Contrôles d'action basés sur le contenu (TTS ou Génération d'idée) */}
-        <div>
-          {hasContent ? (
-            // Bouton TTS pour les histoires existantes
-            <button
-              className='tts-button'
-              onClick={() => speakApartmentText(rawApartmentTexts[selectedApt])} // TTS utilise le texte brut pour le nettoyage
-              disabled={isSpeaking}>
-              {isSpeaking ? <Loader2 size={20} className='animate-spin' /> : <Volume2 size={20} />}
-              {isSpeaking ? "Lecture..." : "🔊 Écouter l'Histoire"}
-            </button>
-          ) : (
-            // Bouton Générateur d'idée pour les appartements vides
-            <button onClick={() => generateSceneIdea(selectedApt)} disabled={isLoadingIdea}>
-              {isLoadingIdea ? <Loader2 size={20} className='animate-spin' /> : <Wand2 size={20} />}
-              {isLoadingIdea ? "Génération..." : "✨ Idée de Scène"}
-            </button>
-          )}
-        </div>
+         {/* Bouton TTS */}
+        {showTTSButton && speechSupported && (
+          <button 
+            onClick={handleTextToSpeech} 
+            className="tts-button"
+            style={{
+              backgroundColor: isSpeaking ? '#e06f98' : undefined
+            }}
+          >
+            {isSpeaking ? '⏸ Arrêter la lecture' : '🔊 Écouter l\'Histoire'}
+          </button>
+        )}
+      
 
         {/* Le conteneur qui simule le document/fenêtre */}
         <div className='apartment-window'>
           {/* Afficher l'idée générée si elle existe */}
-          {generatedIdea && !hasContent && (
-            <div>
-              <p className='font-semibold' style={{ color: "var(--title-color)" }}>
-                Idée de Scène Générée :
-              </p>
-              <p className='italic text-gray-700'>{generatedIdea}</p>
-            </div>
-          )}
-
+        
           {hasContent || selectedApt === "Fleuriste" ? (
             // Contenu du texte
             // Utilisation de dangerouslySetInnerHTML pour injecter le HTML/JSX formaté
@@ -1807,8 +1685,8 @@ const Apartmentpage = ({ handlePageNavigation, setGeneratedIdea, generatedIdea, 
           ) : (
             // Texte si aucun contenu n'est présent
             <div style={{ color: "var(--default-case-color)" }}>
-              {/* Le message est remplacé par l'idée générée ou le message d'attente */}
-              {!generatedIdea && <p>En attente de votre écriture...</p>}
+              {/* Le message est remplacé par  le message d'attente */}
+              { <p>En attente de votre écriture...</p>}
             </div>
           )}
         </div>
