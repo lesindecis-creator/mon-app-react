@@ -73,10 +73,8 @@
   font-size: 1.25rem;
   transition: all 0.2s;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-  margin-left: 2rem;
+margin-left: 2rem;
   grid-column: 6 / span 5;
-  align-self: center;
-  justify-self: center;
 }
 .rdc-button:hover {
   background-color: var(--hovered-case-color);
@@ -94,12 +92,49 @@
   font-size: 1.25rem;
   transition: all 0.2s;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-  margin-right: 20rem;
-  align-self: center;
-  justify-self: center;
+ margin-right: 20rem;
   margin-top: 8px;
 }
 .florist-button:hover {
+  background-color: var(--hovered-case-color);
+  color: var(--title-color);
+  box-shadow: 0 8px 10px -3px rgba(0, 0, 0, 0.2);
+}
+/* Container pour les boutons du bas */
+.ground-floor-container {
+  display: flex;
+  justify-content: space-between; /* Aligne Fleuriste à gauche, RDC au centre, Prompt à droite */
+  align-items: center;
+  width: 90%; /* Ajustez au besoin */
+  margin: 8px auto; /* Centre le conteneur et ajoute une marge verticale */
+}
+
+/* Nouveau conteneur qui sert de référence de positionnement */
+.ground-floor-wrapper {
+  position: relative; /* Permet de positionner des enfants en "absolu" par rapport à lui */
+  width: 90%; /* S'assurer qu'il prend la largeur (peut nécessiter ajustement) */
+  margin: 8px auto; /* Le centrer */
+}
+
+/* Bouton Prompt */
+.prompt-button {
+  /* Styles visuels (copiés de florist-button) */
+  background-color: var(--marquise-roof-color);
+  color: var(--light-text-color);
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  font-size: 1.25rem;
+  transition: all 0.2s;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  
+  /* --- Positionnement --- */
+  position: absolute; /* Le bouton sort du flux normal */
+  top: 25px; /* Se colle en haut du conteneur wrapper */
+  right: -5rem; /* Se colle à droite du conteneur wrapper */
+}
+
+.prompt-button:hover {
   background-color: var(--hovered-case-color);
   color: var(--title-color);
   box-shadow: 0 8px 10px -3px rgba(0, 0, 0, 0.2);

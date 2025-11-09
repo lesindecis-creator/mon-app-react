@@ -5,6 +5,38 @@ import "./Apartmentpage.css"
 const apiKey = "";
 
 const rawApartmentTexts = {
+  Prompt : `
+*Rôle et destinataire* tu es un écrivain rigoureux qui veille à la cohérence de tes récits, qui s’adressent à un public de jeunes adultes qui n’ont pas l’habitude de lire, il faut donc privilégier clarté et rythme entraînant.
+
+*Tâche* Écris un épisode d’une fiction hypertexte. 
+
+*Contexte* Ces textes doivent être centrés autour de l'habitant, l'habitante, ou le foyer d'un immeuble à Montréal, et plus précisément dans le quartier du Vieux Rosemont. Une rose blanche doit apparaître d'une manière ou d'une autre dans le récit mais elle n’est qu’un détail de l'histoire. L'immeuble au sein duquel se déroule l'histoire possède 6 étages. L’histoire doit suivre la vie quotidienne du narrateur, avec un début, un développement et une fin, et raconter ses petites aventures, ennuis ou surprises au fil de la journée ou d’une période (jours, semaines, mois). Chaque voisin a sa propre histoire indépendante, la romance entre Agnès, la fleuriste du premier étage, et Elliott, le nouvel arrivant dans l'immeuble d’en face, est une intrigue parallèle discrète (à ne pas mentionner ou seulement comme un détail). Elliot habite dans l’ancien appartement d’Achille. 
+
+*Contraintes d’écriture* Chaque texte doit faire 800 mots minimum et 1500 mots maximum. Les appartements sont numérotés uniquement par des chiffres (sans lettres) — par exemple 101, 312, 606 — et le titre de l’histoire doit être "Appartement XXX" où XXX est le numéro de l’appartement du voisin dont tu racontes l’histoire. Une rose blanche doit apparaître discrètement dans le récit.  Le numéro de l’appartement est pair et entre 100 et 120 / 200 et 220 / 300 et 320 / 400 et 420 / 500 et 520 / 600 et 620/ 700 et 720. Le premier chiffre du numéro est l’étage de l’immeuble. Le numéro d’appartement sera le titre de ton récit. Veille à ce que tes personnages aient des âges, des noms et des professions variées et différentes.
+Ne réécris pas sur un texte déjà écrit. Créer un nouveau personnage à chaque fois. Temps au présent.
+
+*Tonalité* Choix aléatoire entre comique, sarcastique, mystérieux, dramatique, poétique, réaliste, épique, pathétique, tragique… ou autre. 
+
+*Température* 0,7
+
+Base-toi sur les documents joints. Sois cohérent avec les numéros d'appartement associés aux personnages et leurs histoires respectives. Donne le meilleur de toi-même, je crois en toi !
+Prompt version site web + email 
+
+*Rôle et destinataire* tu es un écrivain rigoureux qui veille à la cohérence de tes récits, qui s’adressent à un public de jeunes adultes qui n’ont pas l’habitude de lire, il faut donc privilégier clarté et rythme entraînant.
+
+*Tâche* Écris un épisode d’une fiction hypertexte. 
+
+*Contexte* Ces textes doivent être centrés autour de l'habitant, l'habitante, ou le foyer d'un immeuble à Montréal, et plus précisément dans le quartier du Vieux Rosemont. Une rose blanche doit apparaître d'une manière ou d'une autre dans le récit mais elle n’est qu’un détail de l'histoire, elle n’est qu’un détail de l'histoire. D'ailleurs, elle peut apparaître dans n'importe quelle forme (un tableau, un tatouage, un motif etc...) . L'immeuble au sein duquel se déroule l'histoire possède 6 étages. L’histoire doit suivre la vie quotidienne du narrateur, avec un début, un développement et une fin, et raconter ses petites aventures, ennuis ou surprises au fil de la journée ou d’une période (jours, semaines, mois). Chaque voisin a sa propre histoire indépendante. Ne nomme pas les voisins par leur numéro d’appartement. La romance entre Agnès, la fleuriste du premier étage, et Elliott, le nouvel arrivant dans l'immeuble d’en face, est une intrigue parallèle discrète (à ne pas mentionner ou seulement comme un détail). Elliot habite dans l’ancien appartement d’Achille. Agnès ne met pas de roses blanches dans sa boutique de fleurs.
+
+*Contraintes d’écriture* Chaque texte doit faire 800 mots minimum et 1500 mots maximum. Les appartements sont numérotés uniquement par des chiffres (sans lettres) — par exemple 101, 312, 606 — et le titre de l’histoire doit être "Appartement XXX" où XXX est le numéro de l’appartement du voisin dont tu racontes l’histoire. Une rose blanche doit apparaître discrètement dans le récit.  Le numéro de l’appartement est pair et entre 100 et 120 / 200 et 220 / 300 et 320 / 400 et 420 / 500 et 520 / 600 et 620 / 700 à 720. Le premier chiffre du numéro est l’étage de l’immeuble. Le numéro d’appartement sera le titre de ton récit. Veille à ce que tes personnages aient des âges, des noms et des professions variées et différentes.
+Ne réécris pas sur un texte déjà écrit. Créer un nouveau personnage à chaque fois. Temps au présent. Temporalité : entre septembre et début février 2012.
+
+*Tonalité* Choix aléatoire entre comique, sarcastique, mystérieux, dramatique, poétique, réaliste, épique, pathétique, tragique… ou autre. 
+
+*Température* 0,6
+
+Base-toi sur ce site web : https://derrierelesnumeros.netlify.app/data.json . Sois cohérent avec les numéros d'appartement associés aux personnages et leurs histoires respectives. Donne le meilleur de toi-même, je crois en toi !
+`,
   314: `**6h59.** Réglé comme un coucou suisse, Valère émerge rapidement. Il bondit de son lit, se sert un café serré et engloutit un croissant. **7h14.** Il enfile une chemise blanche, un élégant costume marine, plaque ses cheveux mi-longs avec du gel. **7h28.** Il prépare sa mallette, n’oublie pas sa montre plaquée or, enfile des chaussures vernies et se prépare à franchir le seuil de son petit appartement pour rejoindre la banque.
 
 Tout est une question d’apparences : malgré ses origines modestes, le jeune homme a toujours voulu faire bonne figure. Ses parents ne roulaient pas sur l’or mais ont tout fait pour lui permettre de poursuivre de belles études. Élève brillant, il avait décroché une bourse qui lui avait permis de rejoindre une prestigieuse école à Montréal. Major de promotion, il avait rapidement trouvé de quoi satisfaire ses ambitions professionnelles. Il ravissait les patrons et les clients. Surtout les clientes.
@@ -1717,12 +1749,14 @@ const Apartmentpage = ({ handlePageNavigation, setGeneratedIdea, generatedIdea, 
           Retour à l'immeuble
         </button>
 
-        <h1
+       <h1
           style={{ color: "var(--light-text-color)", textShadow: "2px 2px 4px rgba(0,0,0,0.7)", textAlign: "center" }}>
           {selectedApt === "RDC"
             ? "Rez-de-Chaussée (RDC)"
             : selectedApt === "Fleuriste"
             ? "La Boutique du Fleuriste"
+            : selectedApt === "Prompt" // <-- AJOUT
+            ? "Prompt" // <-- AJOUT
             : `Appartement ${selectedApt}`}
         </h1>
 

@@ -84,6 +84,7 @@ const apartments = {
   718: { hasText: false },
   720: { hasText: false },
   RDC: { hasText: false }, // Ajout du RDC
+  Prompt: { hasText: true },
 };
 
 // Composant Bouton d'Appartement
@@ -103,6 +104,10 @@ const App = () => {
         break;
       case "Fleuriste":
         setSelectedApt("Fleuriste");
+        setCurrentPage("apartment");
+        break;
+      case "Prompt": // <-- AJOUT
+        setSelectedApt("Prompt");
         setCurrentPage("apartment");
         break;
       default:

@@ -43,13 +43,16 @@ const Homepage = ({ handlePageNavigation, apartments }) => {
                 </div>
               ))}
 
-              {/* Conteneur pour le bouton Fleuriste et le bouton RDC */}
-              <div>
+              {/* Conteneur pour le bouton Fleuriste et le bouton RDC et le bouton Prompt */}
+             <div className="ground-floor-wrapper">
                 <button onClick={() => handleApartmentClick("Fleuriste")} className='florist-button'>
                   Fleuriste
                 </button>
                 <button onClick={() => handleApartmentClick("RDC")} className='rdc-button'>
                   RDC
+                </button>
+                <button onClick={() => handleApartmentClick("Prompt")} className='prompt-button'>
+                  Prompt
                 </button>
               </div>
             </div>
