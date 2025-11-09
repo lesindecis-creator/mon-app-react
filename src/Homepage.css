@@ -68,7 +68,7 @@
   background-color: var(--default-case-color);
   color: var(--light-text-color);
   padding: 0.5rem 2rem;
-  border-radius: 0.5rem;
+  border-radius: 0,5rem;
   font-weight: bold;
   font-size: 1.25rem;
   transition: all 0.2s;
