@@ -4211,15 +4211,6 @@ Dehors, la neige se remet à tomber. Dans l’immeuble,  la vie continue.
 
 Mais ici, dans l’appartement 116, quelque chose vient de se réveiller.
 `
-
-
-
-
-
-
-
-
-
 };
 
 // Fonction utilitaire pour traiter le texte et insérer des <br/>
@@ -4274,9 +4265,12 @@ const apartmentTexts = Object.keys(rawApartmentTexts).reduce((acc, key) => {
 const Apartmentpage = ({ handlePageNavigation, selectedApt, apartments }) => {
   const [isSpeaking, setIsSpeaking] = useState(false);
   const [speechSupported, setSpeechSupported] = useState(true);
+  const [isGenerating, setIsGenerating] = useState(false);
+  const [generatedIdea, setGeneratedIdea] = useState("");
 
   const currentText = apartmentTexts[selectedApt] || "";
   const hasContent = apartments[selectedApt]?.hasText;
+  
 
     // Vérifier si le navigateur supporte le TTS
   useEffect(() => {
@@ -4393,8 +4387,146 @@ const Apartmentpage = ({ handlePageNavigation, selectedApt, apartments }) => {
     handlePageNavigation(null);
   };
 
-// Afficher le bouton TTS uniquement pour les pages avec contenu
+const generateIdea = () => {
+  setIsGenerating(true);
+  setGeneratedIdea("");
+
+  setTimeout(() => {
+    // Déterminer l'étage
+    const etage = Math.floor(selectedApt / 100);
+    
+    // Personnages ORIGINAUX avec diversité d'âges et professions
+    const personnages = [
+      { nom: "Béatrice Langlois", age: 24, profession: "fleuriste ambulante" },
+      { nom: "Rachid Mansouri", age: 58, profession: "horloger" },
+      { nom: "Maude Pelletier", age: 33, profession: "podcasteuse indépendante" },
+      { nom: "Giovanni Russo", age: 71, profession: "accordeur de pianos" },
+      { nom: "Jade Beauchamp", age: 27, profession: "toiletteuse pour animaux" },
+      { nom: "Sébastien Lavoie", age: 45, profession: "restaurateur de meubles anciens" },
+      { nom: "Amira Diallo", age: 22, profession: "étudiante en astronomie" },
+      { nom: "Philippe Gendron", age: 50, profession: "livreur de nuit" },
+      { nom: "Rosalie Thériault", age: 36, profession: "orthophoniste" },
+      { nom: "Karim Benali", age: 40, profession: "ébéniste" },
+      { nom: "Laurence Dion", age: 29, profession: "coach sportif à domicile" },
+      { nom: "Octave Vaillancourt", age: 63, profession: "antiquaire" },
+      { nom: "Mélissa Côté", age: 31, profession: "technicienne en prothèses dentaires" },
+      { nom: "Arnaud Simard", age: 25, profession: "coursier à vélo" },
+      { nom: "Solange Bergeron", age: 54, profession: "couturière sur mesure" },
+      { nom: "Diego Fernandez", age: 39, profession: "professeur de tango" },
+      { nom: "Anaïs Boucher", age: 21, profession: "apprentie sommelière" },
+      { nom: "Rémi Caron", age: 47, profession: "taxidermiste" },
+      { nom: "Inès Laberge", age: 34, profession: "masseuse thérapeutique" },
+      { nom: "Zacharie Fortin", age: 60, profession: "luthier" }
+    ];
+
+    // Situations du quotidien
+    const situations = [
+      "découvrir une vieille carte postale coincée derrière le radiateur",
+      "assister à une dispute de couple dans l'escalier",
+      "trouver un portefeuille abandonné dans la buanderie",
+      "recevoir un appel téléphonique d'un numéro inconnu qui change tout",
+      "voir son reflet dans le miroir et décide de tout changer",
+      "entendre une conversation privée à travers le mur trop fin",
+      "devoir gérer une fuite d'eau qui s'infiltre du plafond",
+      "croiser trois fois la même personne dans la même journée",
+      "recevoir une lettre adressée à l'ancien locataire, morte il y a dix ans",
+      "remarquer qu'un objet familier a disparu de son appartement",
+      "se réveiller avec l'impression d'avoir oublié quelque chose d'important",
+      "être témoin d'un moment intime par une fenêtre mal fermée",
+      "découvrir que son appartement servait à quelque chose d'étrange avant",
+      "partager l'ascenseur avec quelqu'un qui pleure en silence",
+      "trouver un journal intime caché dans un placard"
+    ];
+
+    // Thèmes
+    const themes = [
+      "l'étrangeté du quotidien qui nous échappe",
+      "les vies parallèles qui ne se touchent jamais",
+      "ce qu'on cache aux autres et à soi-même",
+      "les coïncidences qui n'en sont peut-être pas",
+      "la frontière floue entre curiosité et voyeurisme",
+      "les traces que laissent ceux qui sont partis",
+      "l'impossibilité de vraiment connaître ses voisins",
+      "les rituels qui nous maintiennent en vie",
+      "la façon dont les murs retiennent les secrets",
+      "l'art de survivre dans un petit espace"
+    ];
+
+    // Tonalités avec descriptions
+    const tonalites = [
+      { style: "comique", description: "un récit léger qui joue sur l'absurde des situations et les quiproquos savoureux" },
+      { style: "réaliste", description: "une narration sans fard, avec une précision presque documentaire" },
+      { style: "poétique", description: "une écriture où le quotidien se transforme en métaphore et chaque détail prend une dimension lyrique" },
+      { style: "mystérieux", description: "une atmosphère où des zones d'ombre subsistent et certaines questions restent sans réponse" },
+      { style: "sarcastique", description: "un ton où le narrateur observe sa vie et celle des autres avec un détachement mordant" },
+      { style: "mélancolique", description: "un style où une nostalgie diffuse colore chaque geste, chaque souvenir" },
+      { style: "dramatique", description: "une tension qui monte progressivement, où les émotions débordent" },
+      { style: "pathétique", description: "une tonalité où l'émotion est à fleur de peau, la vulnérabilité exposée" }
+    ];
+
+    // Apparitions discrètes de la rose blanche
+    const rosesBlanchesForms = [
+      "un autocollant de rose blanche collé sur une lampe de chevet",
+      "une rose blanche brodée sur un coussin de canapé",
+      "le papier peint de la salle de bain portant un motif de roses blanches fanées",
+      "une cicatrice en forme de rose blanche sur un avant-bras",
+      "un badge épinglé sur un sac avec une rose blanche dessinée",
+      "une rose blanche en origami posée sur une pile de factures",
+      "le logo d'une rose blanche sur un vieux magazine qui traîne",
+      "des ombres projetées par les rideaux formant comme une rose blanche sur le mur",
+      "une rose blanche gravée sur un briquet qu'on ne jette jamais",
+      "une rose blanche dessinée à la craie sur le trottoir devant l'immeuble",
+      "un petit tatouage temporaire de rose blanche qui s'efface",
+      "une rose blanche imprimée sur l'étiquette d'une bouteille de vin vide",
+      "le screensaver d'un ordinateur affichant une rose blanche qui tourne",
+      "une rose blanche en céramique utilisée comme cale-porte",
+      "le reflet d'une enseigne lumineuse dessinant une rose blanche sur le plafond la nuit"
+    ];
+
+    // Références à l'univers
+    const referencesDiscrets = [
+      "entendre un chat tigré miauler dans l'escalier",
+      "percevoir les accords d'une guitare électrique distordue venant d'en haut",
+      "croiser la gardienne de l'immeuble avec son trousseau de clés qui tinte",
+      "sentir l'odeur de quelque chose d'épicé qui embaume tout le palier",
+      "remarquer un carton de déménagement qui traîne depuis deux semaines dans le couloir",
+      "observer par la fenêtre l'immeuble d'en face où les lumières s'allument par vagues",
+      "voir deux vélos attachés devant l'entrée qui rouillent doucement sous la pluie",
+      "sentir une odeur de café fort montant de l'appartement du dessous chaque matin",
+      "entendre le parquet craquer toujours au même endroit, juste devant la porte"
+    ];
+
+    // Périodes
+    const periodes = [
+      "un mercredi soir de septembre où l'été refuse encore de partir",
+      "une nuit d'octobre où le vent fait trembler les fenêtres",
+      "un jeudi après-midi de novembre, coincé entre deux obligations",
+      "une soirée de décembre où les premiers flocons tombent enfin",
+      "un lundi matin de janvier où le froid pique les joues",
+      "un week-end de début février où la neige sale s'accumule"
+    ];
+
+    // Sélections aléatoires
+    const perso = personnages[Math.floor(Math.random() * personnages.length)];
+    const prenom = perso.nom.split(' ')[0];
+    const situation = situations[Math.floor(Math.random() * situations.length)];
+    const theme = themes[Math.floor(Math.random() * themes.length)];
+    const tonalite = tonalites[Math.floor(Math.random() * tonalites.length)];
+    const roseBlanche = rosesBlanchesForms[Math.floor(Math.random() * rosesBlanchesForms.length)];
+    const reference = referencesDiscrets[Math.floor(Math.random() * referencesDiscrets.length)];
+    const periode = periodes[Math.floor(Math.random() * periodes.length)];
+
+    // Construction du texte d'idée dans le style demandé
+    const ideaText = `Tu pourrais raconter l'histoire de ${perso.nom}, ${perso.age} ans, ${perso.profession}, lors d'${periode}. Dans un style ${tonalite.style}, ${tonalite.description}. ${prenom} pourrait ${situation}. Centre toi sur ${theme}. 
+
+La rose blanche pourrait être ${roseBlanche}. Et pour t'inscrire dans l'ambiance de l'immeuble, ${prenom} pourrait ${reference}.`;
+
+    setGeneratedIdea(ideaText);
+    setIsGenerating(false);
+  }, 1500);
+};
   const showTTSButton = (hasContent || selectedApt === "Fleuriste" || selectedApt === "RDC") && selectedApt !== "Prompt";
+  const showIdeaButton = !hasContent && selectedApt !== "Fleuriste" && selectedApt !== "RDC" && selectedApt !== "Prompt";
 
   return (
     <div className='apartment-page-bg'>
@@ -4429,7 +4561,35 @@ const Apartmentpage = ({ handlePageNavigation, selectedApt, apartments }) => {
             {isSpeaking ? '⏸ Arrêter la lecture' : '🔊 Écouter l\'Histoire'}
           </button>
         )}
-      
+        {/* Bouton de génération d'idée */}
+{showIdeaButton && (
+  <button 
+    onClick={generateIdea} 
+    className="idea-button"
+    disabled={isGenerating}
+  >
+    {isGenerating ? '⏳ Génération en cours...' : '💡 Générer une idée'}
+  </button>
+)}
+
+{/* Afficher l'idée générée si elle existe */}
+{generatedIdea && (
+  <div className="generated-idea" style={{
+    backgroundColor: 'var(--apartment-interior-color)',
+    padding: '15px',
+    borderRadius: '0.5rem',
+    marginTop: '15px',
+    marginBottom: '15px',
+    border: '2px solid var(--default-case-color)'
+  }}>
+    <h3 style={{ color: 'var(--default-case-color)', marginTop: 0 }}>
+      💡 Idée générée
+    </h3>
+    <p style={{ color: 'var(--title-color)', whiteSpace: 'pre-wrap' }}>
+      {generatedIdea}
+    </p>
+  </div>
+)}
 
         {/* Le conteneur qui simule le document/fenêtre */}
         <div className='apartment-window'>
