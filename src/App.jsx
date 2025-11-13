@@ -10,7 +10,7 @@ const apartments = {
   106: { hasText: true },
   108: { hasText: true },
   110: { hasText: true },
-  112: { hasText: false },
+  112: { hasText: true },
   114: { hasText: true },
   116: { hasText: true },
   118: { hasText: true },

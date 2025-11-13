@@ -37,6 +37,9 @@ Ne réécris pas sur un texte déjà écrit. Créer un nouveau personnage à cha
 
 Base-toi sur ce site web : https://derrierelesnumeros.netlify.app/data.json . Sois cohérent avec les numéros d'appartement associés aux personnages et leurs histoires respectives. Donne le meilleur de toi-même, je crois en toi !
 `,
+112: `Bienvenue chez Agnès !
+
+Pour découvrir son histoire, baladez vous dans l'immeuble. Elle ne révèlera pas son histoire elle-même...`,
 314: `**6h59.**
 
 Réglé comme un coucou suisse, Valère émerge  rapidement. Il bondit de son lit, se sert un café serré et  engloutit un croissant.  
