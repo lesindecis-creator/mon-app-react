@@ -1,8 +1,6 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Apartmentpage from "./Apartmentpage";
 import Homepage from "./Homepage";
-
-// Constantes pour les API (Laissez vide, le Canvas fournira la clé)
 
 // --- DONNÉES DE L'IMMEUBLE ---
 const apartments = {
@@ -83,34 +81,94 @@ const apartments = {
   716: { hasText: false },
   718: { hasText: false },
   720: { hasText: true },
-  RDC: { hasText: true }, // Ajout du RDC
+  RDC: { hasText: true },
   Prompt: { hasText: true },
 };
-
-// Composant Bouton d'Appartement
 
 const App = () => {
   const [currentPage, setCurrentPage] = useState("home");
   const [selectedApt, setSelectedApt] = useState(null);
 
+  // Initialiser l'état depuis l'URL au chargement
+  useEffect(() => {
+    const path = window.location.pathname;
+    
+    if (path === '/' || path === '') {
+      setCurrentPage("home");
+      setSelectedApt(null);
+    } else if (path === '/fleuriste') {
+      setCurrentPage("apartment");
+      setSelectedApt("Fleuriste");
+    } else if (path === '/prompt') {
+      setCurrentPage("apartment");
+      setSelectedApt("Prompt");
+    } else if (path === '/rdc') {
+      setCurrentPage("apartment");
+      setSelectedApt("RDC");
+    } else if (path.startsWith('/appartement/')) {
+      const aptNumber = path.replace('/appartement/', '');
+      setCurrentPage("apartment");
+      setSelectedApt(aptNumber);
+    }
+  }, []);
+
+  // Gérer la navigation avec le bouton retour
+  useEffect(() => {
+    const handlePopState = () => {
+      const path = window.location.pathname;
+      
+      if (path === '/' || path === '') {
+        setCurrentPage("home");
+        setSelectedApt(null);
+      } else if (path === '/fleuriste') {
+        setCurrentPage("apartment");
+        setSelectedApt("Fleuriste");
+      } else if (path === '/prompt') {
+        setCurrentPage("apartment");
+        setSelectedApt("Prompt");
+      } else if (path === '/rdc') {
+        setCurrentPage("apartment");
+        setSelectedApt("RDC");
+      } else if (path.startsWith('/appartement/')) {
+        const aptNumber = path.replace('/appartement/', '');
+        setCurrentPage("apartment");
+        setSelectedApt(aptNumber);
+      }
+    };
+
+    window.addEventListener('popstate', handlePopState);
+    
+    return () => {
+      window.removeEventListener('popstate', handlePopState);
+    };
+  }, []);
+
   const handlePageNavigation = (aptNumber) => {
-  
     switch (aptNumber) {
       case null:
         setCurrentPage("home");
         setSelectedApt(null);
+        window.history.pushState({}, '', '/');
         break;
       case "Fleuriste":
         setSelectedApt("Fleuriste");
         setCurrentPage("apartment");
+        window.history.pushState({}, '', '/fleuriste');
         break;
-      case "Prompt": // <-- AJOUT
+      case "Prompt":
         setSelectedApt("Prompt");
         setCurrentPage("apartment");
+        window.history.pushState({}, '', '/prompt');
+        break;
+      case "RDC":
+        setSelectedApt("RDC");
+        setCurrentPage("apartment");
+        window.history.pushState({}, '', '/rdc');
         break;
       default:
         setSelectedApt(aptNumber);
         setCurrentPage("apartment");
+        window.history.pushState({}, '', `/appartement/${aptNumber}`);
     }
   };
 
@@ -125,8 +183,6 @@ const App = () => {
       selectedApt={selectedApt}
     />
   );
-
-  // Page de détail de l'appartement
 };
 
 export default App;

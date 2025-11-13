@@ -51,3 +51,17 @@
   white-space: normal;
 }
 
+/* Styles pour les liens hypertextes */
+.apartment-link {
+  color: var(--default-case-color);  /* Bleu - changez selon votre préférence */
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.2s;
+  font-weight: 500;
+}
+
+.apartment-link:hover {
+  color: var(--hovered-case-color);  /* Rose au survol */
+  text-decoration: none;
+}
+

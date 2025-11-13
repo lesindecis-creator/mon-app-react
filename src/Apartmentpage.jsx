@@ -73,7 +73,7 @@ On lui riait souvent au nez. Il avait dit adieu à beaucoup  de relations à cet
 En vérité, il avait fait ce choix surprenant pour combler  un vide dans son quotidien. À quoi bon profiter d’une  situation stable et aisée si l’on n’avait personne avec  qui la partager ?  
 
 
-Cette pensée, digne d’un film de Noël à la gomme  dont raffolait Madame Leclercq1 — une amie de ses  parents à qui il rendait parfois des services en bricolage  — n’avait pourtant jamais sonné aussi juste.  
+Cette pensée, digne d’un film de Noël à la gomme  dont raffolait [Madame Leclercq](312) — une amie de ses  parents à qui il rendait parfois des services en bricolage  — n’avait pourtant jamais sonné aussi juste.  
 
 Un jour, alors qu’il quittait justement l’appartement de  Madame Leclercq, il aperçut fugacement une jeune  femme chez le fleuriste situé en bas de l’immeuble.  
 
@@ -164,7 +164,7 @@ Depuis Valère devint d’une timidité extrême dès lors  qu’il s’agissait
 Et à 7h44, tandis qu’il s’attend à voir Agnès, c’est la  porte d’à côté qui s’ouvre. Il connaissait très peu cette  voisine. Valère ne l’a rencontrée qu’à l’occasion de la  fête des voisins.  
 
 
-Madame Desmarais , une infirmière à la retraite qui vit  avec trois chats.  
+[Madame Desmarais](110) , une infirmière à la retraite qui vit  avec trois chats.  
 
 Cependant ce n’est pas elle qui franchit le seuil de  l’appartement 110, mais une coquette trentenaire.  Valère est immédiatement subjugué par ses yeux  menthe à l’eau.  
 
@@ -239,8 +239,7 @@ Malgré ce qui s’était passé, la professeure de  mathématiques avait appré
 — Non, de sa grand-mère. Elle sait que j’aimais  beaucoup Achille.  
 
 
- Lucille tique. Elle ignorait que Marie-Chantal et  Madame Dubois1 s’étaient rapprochées.  
-
+ Lucille tique. Elle ignorait que Marie-Chantal et  [Madame Dubois](220) s’étaient rapprochées.  
 
 D’une certaine manière, elle n’est pas surprise. Toutes  les deux devaient souffrir de solitude depuis l’accident.  Elle les imagine bien jouer au bridge le dimanche  après-midi avec le tableau en arrière-plan. Bien qu’elle  trouve le symbole assez glauque.  
 
@@ -251,7 +250,7 @@ La jeune femme prend conscience du motif de sa  robe et a soudain la nausée.
 Elle préfère détendre l’atmosphère.  
 
 
-— Tiens donc, Christine vous offre des cadeaux ! Que  fait donc Francis ? Il faut qu’il fasse attention, il risque  de perdre la place qu’il occupe dans votre cœur.  
+— Tiens donc, Christine vous offre des cadeaux ! Que  fait donc [Francis](608) ? Il faut qu’il fasse attention, il risque  de perdre la place qu’il occupe dans votre cœur.  
 
 
 Marie-Chantal rigole. Son rire franc fait du bien à Lucille.  Sans son amie, son quotidien manque de légèreté.  
@@ -265,7 +264,7 @@ Francis Paquette est le voisin du sixième étage  pour lequel Marie-Chantal a e
 — Ce qui n’est pas le cas de Christine, évidemment.  
 
 
-— Arrête avec tes sous-entendus ! Il s’agit juste d’une  vieille amie ! On se retrouve parfois pour jouer aux  cartes… Adeline Leclercq1 se joint à nous d’ailleurs,  quand ça lui prend.  
+— Arrête avec tes sous-entendus ! Il s’agit juste d’une  vieille amie ! On se retrouve parfois pour jouer aux  cartes… [Adeline Leclercq](312) se joint à nous d’ailleurs,  quand ça lui prend.  
 
 
 Lucille sourit. Elle avait vu juste pour le bridge !  Elle s’apprête à rétorquer quand un concert de  miaulements se fait entendre depuis la cuisine. Il s’agit  de Pompon, Ronron, et Clovis.  
@@ -354,7 +353,7 @@ J’ai vraiment l’impression d’être un espion. Mais qui  ne tente rien n’
 
 J’accroche un fil à chacune de mes portes, comme  ça si quelqu’un l’ouvre, le fil se cassera. Les biscuits  sous le paillasson sont une bonne idée, alors j’en place  quelques-uns avant de partir.  
 
-La journée se passe, et me voilà déjà sur le chemin du  retour quand je croise le voisin  du dessous avec une  énorme plante à la main, sortant de l’ascenseur.  
+La journée se passe, et me voilà déjà sur le chemin du  retour quand je croise le [voisin](216)  du dessous avec une  énorme plante à la main, sortant de l’ascenseur.  
 — Laissez-moi vous tenir la porte !  
 
 
@@ -503,7 +502,7 @@ L’image apparaît enfin, cette silhouette qui est en train de lire le petit mo
 Une gamine ?  
 
 
-— Mais, c’est la gamine de la gardienne1 ! Soudain, elle relève la tête, regarde autour d’elle,  et s’arrête sur la caméra. Son regard terrorisé quitte  mon appartement, emportant son corps avec, à toute  vitesse. Je n’y comprends rien.  
+— Mais, c’est la gamine de la [gardienne](RDC) ! Soudain, elle relève la tête, regarde autour d’elle,  et s’arrête sur la caméra. Son regard terrorisé quitte  mon appartement, emportant son corps avec, à toute  vitesse. Je n’y comprends rien.  
 
 
 C’est une gentille fille, pourquoi s’amuser à venir chez  moi ? Il doit y avoir une explication. Je prends mes  affaires et je fonce chez moi.  
@@ -710,7 +709,8 @@ Alors Marie part, elle doit rendre visite au jeune voisin  du troisième. Il s�
 
 Une fois seule, je retourne sur mon fauteuil et j’observe  la rue qui s’anime.  
 
-Dans l’escalier, j’entends les pas précipités de Madame Leclercq1 du troisième, toujours si pressée le  matin.  
+Dans l’escalier, j’entends les pas précipités de [Madame Leclercq](312) du troisième, toujours si pressée le  matin.  
+
 Hier, j’ai tenté de lui parler de la météo, mais elle a  à peine grommelé un bonjour avant de dévaler les  marches. Comme tous les autres jours d’ailleurs. 
 
 Les jeunes amoureux du premier semblent gentils, mais  je sens bien que mes petites conversations les ennuient. 
@@ -801,7 +801,7 @@ Ah, Sunny… Il n’est pas très solaire pour avoir ce  prénom, il ne cherche 
 
 Je crois qu’elle ne s’imagine pas qu’on l’écoute,  pourtant, moi, je la trouve drôlement apaisante.  
 
-Quand j’ai trop peur que Médor — pardon, Sunny  — ne m’attaque, ou que la fenêtre est fermée, je me  faufile souvent sur le balcon de l’appartement d’un  monsieur1 très gentil, un peu bordélique, qui s’est mis  à faire pousser un tas de roses blanches sur son balcon.  
+Quand j’ai trop peur que Médor — pardon, Sunny  — ne m’attaque, ou que la fenêtre est fermée, je me  faufile souvent sur le balcon de l’appartement d’un  [monsieur](308) très gentil, un peu bordélique, qui s’est mis  à faire pousser un tas de roses blanches sur son balcon.  
 
 
 Mon paradis je vous l’avoue ! Si je n’appréciais pas  autant cet appartement, cela ferait longtemps que  j’aurais déloger à l’étage d’en dessous, à coup sûr !  
@@ -891,7 +891,7 @@ Mes mains tremblent. Je retourne à la fenêtre et fixe
 l’immeuble d’en face, celui où habite désormais ce
 jeune homme qu’on croise parfois dans la rue. Elliott,
 je crois. Il a emménagé dans l’ancien appartement
-d’Achille, le petit-fils de Madame Dubois.
+d’Achille, le petit-fils de [Madame Dubois](220).
 
 J’ignore ce qui est arrivé à ce garçon, mais son départ
 semble avoir brisé quelque chose dans le cœur de la
@@ -1023,17 +1023,16 @@ Elle se prépara un café, s’installa près de la fenêtre  avec le journal. M
 Aujourd’hui, c’était jeudi.  
 
 
-Le jour du bridge chez Christine. Normalement, elle  s’en réjouissait. Mais ces dernières semaines, quelque  chose avait changé.  
+Le jour du bridge chez [Christine](220). Normalement, elle  s’en réjouissait. Mais ces dernières semaines, quelque  chose avait changé.  
 
 
-Marie-Chantal.  
+[Marie-Chantal](110).  
 
 
 Adeline posa sa tasse, frustrée par ses propres pensées.  Marie-Chantal était son amie. Une bonne amie, même.  Elles se connaissaient depuis des années, jouaient aux  cartes ensemble, s’échangeaient des potins et des  recettes. Mais dernièrement, Adeline avait remarqué  quelque chose qui la dérangeait.  
 
 
-Marie-Chantal parlait constamment de Francis2 . Le  voisin du sixième étage. Un homme charmant, certes,  mais qui ne semblait même pas savoir que Marie Chantal existait. Et à chaque partie de bridge, Marie Chantal trouvait le moyen de ramener la conversation  à lui.  
-
+Marie-Chantal parlait constamment de [Francis](608) . Le  voisin du sixième étage. Un homme charmant, certes,  mais qui ne semblait même pas savoir que Marie Chantal existait. Et à chaque partie de bridge, Marie Chantal trouvait le moyen de ramener la conversation  à lui.  
 
 <em>Francis a dit ceci, j’ai croisé Francis dans l’escalier,  Francis aime les chats, vous savez.  </em>
 
@@ -1186,7 +1185,7 @@ Puis il barra la phrase. Trop triste, trop vrai.
 
 Vers dix heures, on frappa à sa porte. Il soupira, écrasa  sa cigarette et ouvrit. Devant lui, une petite femme aux  cheveux argentés, emmitouflée dans une écharpe rose,  tenait une assiette recouverte de papier aluminium.  
 
-— Bonjour Francis ! C’est Marie-Chantal1 , du premier. 
+— Bonjour Francis ! C’est [Marie-Chantal](110) , du premier. 
 
 — Je sais bien qui t’es, répondit-il, amusé. C’est quoi  ça ?  
 
@@ -1365,7 +1364,7 @@ Je m’appelle Simon. Je suis professeur de philosophie  au cégep du Vieux-Mont
 Ce matin-là, j’avais cours à 8h. J’ai enfilé mon manteau  en laine, attrapé mon sac, et je suis sorti en claquant la  porte.  
 
 
-Dans le couloir, j’ai croisé Madame Lefèvre1, la vieille  dame du 306, qui traînait un sac de courses trop lourd.  Elle m’a souri, j’ai hoché la tête, et j’ai continué mon  chemin.  
+Dans le couloir, j’ai croisé [Madame Lefèvre](306), la vieille  dame du 306, qui traînait un sac de courses trop lourd.  Elle m’a souri, j’ai hoché la tête, et j’ai continué mon  chemin.  
 
 
 Je n’avais pas le temps pour les politesses.  Le cégep était à dix minutes à pied.  
@@ -1489,7 +1488,7 @@ Je sais. C’est malsain. C’est invasif. C’est probablement  illégal.
 
 Mais je ne peux pas m’en empêcher.  
 
-Tout a commencé en octobre. J’étais en panne  d’inspiration sur une traduction particulièrement  chiante. Je regardais par la fenêtre, distraitement. Et j’ai vu Valère du 314 qui se préparait pour aller travailler.  Chemise impeccable, gestes précis, routine millimétrée.  J’ai trouvé ça fascinant. Cette vie si ordonnée, si  différente de la mienne.  
+Tout a commencé en octobre. J’étais en panne  d’inspiration sur une traduction particulièrement  chiante. Je regardais par la fenêtre, distraitement. Et j’ai vu [Valère](314) du 314 qui se préparait pour aller travailler.  Chemise impeccable, gestes précis, routine millimétrée.  J’ai trouvé ça fascinant. Cette vie si ordonnée, si  différente de la mienne.  
 
 
 Alors j’ai pris une photo. Juste une. Pour m’en souvenir.  Puis une deuxième. Puis une troisième.  
@@ -1497,7 +1496,7 @@ Alors j’ai pris une photo. Juste une. Pour m’en souvenir.  Puis une deuxièm
 
 Maintenant, j’ai des centaines de photos.  
 
-Christine2 du 220 qui arrose ses roses sur son rebord de  fenêtre. James3 du 316 qui accueille cette petite fille  qui squatte chez lui. Marie-Chantal 4 du 110 qui nourrit  ses chats. Des vies en fragments, capturées à leur insu.  
+[Christine](220) du 220 qui arrose ses roses sur son rebord de  fenêtre. [James](316) du 316 qui accueille cette petite fille  qui squatte chez lui. [Marie-Chantal](110) du 110 qui nourrit  ses chats. Des vies en fragments, capturées à leur insu.  
 
 
 Je ne partage jamais ces photos. Je ne les montre  à personne. C’est juste pour moi. Mon petit secret  honteux.  
@@ -1538,7 +1537,7 @@ Je raccroche. Je ne viendrai pas. Je ne viens jamais.
 Vers midi, on frappe à ma porte. Je sursaute, je ferme  rapidement le dossier. Mon cœur bat trop vite. Est-ce  que quelqu’un m’a vue ? Est-ce que quelqu’un sait ?  
 
 
-J’ouvre. C’est Francis1 du 608. Le rockeur fatigué avec  sa guitare.  
+J’ouvre. C’est [Francis](608) du 608. Le rockeur fatigué avec  sa guitare.  
 
 
 — Salut. Désolé de déranger. T’aurais du sucre à me  prêter ?  
@@ -1567,7 +1566,7 @@ Puis mes yeux dérivent vers la fenêtre.
 Et je recommence.  
 
 
-Je prends mon appareil photo, je zoome sur les  fenêtres d’en face. Adeline2 du 312 qui lit sur son balcon  malgré le froid. Simon 3 du 308 qui fume une cigarette,  l’air perdu. Denis4 du 216 qui range ses affaires, peut-être en train de déménager.  
+Je prends mon appareil photo, je zoome sur les  fenêtres d’en face. [Adeline](312) du 312 qui lit sur son balcon  malgré le froid. [Simon](308) du 308 qui fume une cigarette,  l’air perdu. [Denis](216) du 216 qui range ses affaires, peut-être en train de déménager.  
 
 
 Click. Click. Click.  
@@ -1784,7 +1783,8 @@ Le souffle court, il secouait la tête, revint à la réalité. Il  ne se rendit
 
 
 *
-Madame Leclercq1 sortit de son appartement et se  dirigea vers les boîtes aux lettres au rez-de-chaussée. Elle  ouvrit la sienne, boîte 312, et découvrit une enveloppe.  Elle ouvrit et vit une invitation à une exposition d’art.  L’expéditeur ne lui était pas du tout inconnu. Elle haussa  un sourcil, surprise, la bouche en cœur.  
+
+[Madame Leclercq](312) sortit de son appartement et se  dirigea vers les boîtes aux lettres au rez-de-chaussée. Elle  ouvrit la sienne, boîte 312, et découvrit une enveloppe.  Elle ouvrit et vit une invitation à une exposition d’art.  L’expéditeur ne lui était pas du tout inconnu. Elle haussa  un sourcil, surprise, la bouche en cœur.  
 
 
 — Antony, le discret du 5e m’invite à son exposition  samedi ? Je suis sous le choc.  
@@ -1939,7 +1939,7 @@ Il en profite pour commencer le sport et décide d’aller  jusqu’au magasin e
 
 11 minutes plus tard, il parvient enfin au magasin,  essoufflé. Le sport… Peut-être une autre fois.  Une fois dans la grande surface, il craque dans la partie  fleuristerie, et s’empare de plusieurs plantes, certaines  pour décorer sa maison, d’autres pour faire sécher les  feuilles et les ajouter à ses peintures. Il fera des tests.  
 
-Heureux de ses trouvailles, Denis rentre chez lui. Dans  l’ascenseur, il croise le voisin du dessus, qui jette un  coup d’œil rapide à toutes ses plantes, et le voyant  chargé, décide de l’aider.  
+Heureux de ses trouvailles, Denis rentre chez lui. Dans  l’ascenseur, il croise le [voisin du dessus](316), qui jette un  coup d’œil rapide à toutes ses plantes, et le voyant  chargé, décide de l’aider.  
 
 
 — Laissez-moi vous tenir la porte, attendez !  
@@ -2061,7 +2061,7 @@ Février arrive avec ses tempêtes de neige qui  bloquent la ville. Fatima reste
 
 
 Un samedi matin, on frappe à sa porte. Trois coups  fermes. Fatima se fige sur son canapé. Elle ne répond  jamais. Les gens finissent toujours par partir.  
-— Madame Fatima ? C’est Marie-Chantal , du 110. 
+— Madame Fatima ? C’est [Marie-Chantal](110) , du 110. 
 
 
 Je suis une ancienne infirmière, je fais une tournée dans  l’immeuble pour vérifier que tout le monde va bien  après la tempête. Vous allez bien ?  
@@ -2125,7 +2125,7 @@ Marcus enfile un deuxième chandail par-dessus  son hoodie. À vingt-neuf ans, i
 
 Il attrape son téléphone pour la cinquième fois de  la matinée. Toujours rien. Il hésite, puis décide d’aller  frapper chez quelqu’un. N’importe qui. Peut-être que  d’autres locataires ont le même problème. 
 
-Dans le corridor, il aperçoit Marguerite Dufresne qui  monte l’escalier avec une lenteur calculée, agrippée à  la rampe. La vieille dame du 502 porte un manteau de  laine rose vif qui jure glorieusement avec le papier peint  défraîchi des murs. 
+Dans le corridor, il aperçoit [Marguerite Dufresne](502) qui  monte l’escalier avec une lenteur calculée, agrippée à  la rampe. La vieille dame du 502 porte un manteau de  laine rose vif qui jure glorieusement avec le papier peint  défraîchi des murs. 
 
 
 — Madame Dufresne, bonjour. Est-ce que votre  chauffage fonctionne bien ?  
@@ -2230,13 +2230,13 @@ Son appartement est un sanctuaire de papier. Des  bibliothèques couvrent chaque
 
 Elle ouvre le carnet où elle note ses observations  quotidiennes. C’est devenu son projet depuis la  retraite : documenter la vie de l’immeuble comme on  documenterait un écosystème. Ce matin, elle écrit : 
  
-<em>7h12 – Le jeune homme du 316, James , sort avec son  sac de sport. Expression fatiguée. Probable insomnie.  
+<em>7h12 – Le jeune homme du 316, [James](316) , sort avec son  sac de sport. Expression fatiguée. Probable insomnie.  
 
 
-7h23 – Madame Leclercq du 312 arrose ses plantes  sur le balcon. Robe de chambre bleue. Semble sereine.  
+7h23 – [Madame Leclercq](312) du 312 arrose ses plantes  sur le balcon. Robe de chambre bleue. Semble sereine.  
 
 
-7h45 – Francis  du 608 rentre de son shift de nuit en  taxi. Démarche lourde. La fatigue des années.  </em>
+7h45 – [Francis](608)  du 608 rentre de son shift de nuit en  taxi. Démarche lourde. La fatigue des années.  </em>
 
 
 Marguerite pose son stylo et sirote son thé. Elle pense  à tous ces gens qu’elle observe sans vraiment les  connaître. Parfois, elle aimerait descendre frapper à  leurs portes, partager un café, échanger des histoires.  Mais quelque chose la retient. La peur du rejet, peut 
@@ -2256,7 +2256,7 @@ Le téléphone sonne, brisant sa rêverie. C’est sa nièce,  Sophie, qui appel
 
 Marguerite sourit tristement. Sophie ne comprend pas  que les livres sont ses amis les plus fidèles. Ils ne jugent  pas, ne déçoivent pas, ne partent pas.  
 
-Après l’appel, elle décide de descendre chercher son courrier. Dans l’escalier, elle croise le jeune Antony du  512 qui monte les escaliers quatre à quatre, un sac de  matériel artistique à l’épaule. Il la salue poliment mais ne s’arrête pas. Marguerite se souvient de l’époque  où les gens prenaient le temps de bavarder dans les  escaliers.  
+Après l’appel, elle décide de descendre chercher son courrier. Dans l’escalier, elle croise le jeune [Antony](512) du  512 qui monte les escaliers quatre à quatre, un sac de  matériel artistique à l’épaule. Il la salue poliment mais ne s’arrête pas. Marguerite se souvient de l’époque  où les gens prenaient le temps de bavarder dans les  escaliers.  
 
 
 Dans le hall, elle trouve une enveloppe dans sa boîte.  Pas une facture cette fois, mais une vraie lettre, écrite  à la main. L’adresse de l’expéditeur lui coupe le souffle.  
@@ -2312,7 +2312,7 @@ Il a été quelqu’un, autrefois.
 
 Un nom dans une galerie de Toronto, des regards  suspendus à ses toiles, des amants oubliés avant  l’aube. Puis vient l’épuisement du feu. Le blanc qui  avale. L’alcool qui s’installe comme un brouillard toléré.  Maintenant, il habite ici. En repli. En veille. 
 
-Le mercredi, le voisin du 718 fait parler son saxophone. Ça râle, ça grince, ça cherche une issue. 
+Le mercredi, le [voisin](718) du 718 fait parler son saxophone. Ça râle, ça grince, ça cherche une issue. 
 
 
 Roméo ignore son nom, mais attend ce cri de cuivre  comme une délivrance. Il s’assoit, tasse en main, face  à la rose. Il ajoute une ombre. Une respiration lumineuse  sur le bord d’un pétale. Il peint sans comprendre. Il peint  comme on expire. 
@@ -2367,7 +2367,7 @@ Sinon, elle la vivait bien sa vie.
 — Pardon ? 
 
 
-Anthony Gracier se retourna alors qu’il signait la  relocation de son box de garage. 
+[Anthony Gracier](512) se retourna alors qu’il signait la  relocation de son box de garage. 
 
 
 — Oh rien, je marmonne. Si seulement les gens  pouvaient être plus respectueux… 
@@ -2466,7 +2466,7 @@ Le sifflement de la bouilloire devient son premier  compagnon. Elle verse l’ea
 Dehors, le quartier dort encore sous le souffle de  décembre. Les arbres du square ont perdu leurs  dernières feuilles. Le trottoir brille d’un givre discret. Et  sur le bord opposé de la rue, la boutique de la fleuriste  repose derrière sa grille, close comme une paupière.  Arlette la regarde souvent. Elle ne sait plus depuis quand  la boutique a changé de mains.  
 
 
-Longtemps, c’était une femme plus âgée qui y tenait les fleurs, une certaine Madame Dubois1, si sa mémoire  est bonne.  
+Longtemps, c’était une femme plus âgée qui y tenait les fleurs, une certaine [Madame Dubois](220), si sa mémoire  est bonne.  
 
 
 Elles ne se parlaient pas vraiment, mais il lui arrivait de  la croiser au marché, une rose blanche dépassant de  son panier.  
@@ -2518,7 +2518,7 @@ Et pourtant. Pourtant, Jocelyn se réveille à 6h30 tous les  jours, il s’auto
 
 S’il est chanceux, un ami lui aura envoyé un message,  une vidéo Instagram, un petit signe qui montre qu’on a  pensé à lui au moins une fois, dans cette longue, longue  journée. 
 
-Madame Dufresne devait probablement l’observer,  depuis sa fenêtre. Il la voyait tous les matins. Parfois,  quand il était bien luné, il lui faisait un petit signe.  
+[Madame Dufresne](502) devait probablement l’observer,  depuis sa fenêtre. Il la voyait tous les matins. Parfois,  quand il était bien luné, il lui faisait un petit signe.  
 Une petite attention, pensait-il. Elle est vieille, les  habitants de l’immeuble étaient certes amicaux,  prévenants, mais elle restait seule.  
 
 Ce matin, pas de geste. Un air renfrogné, rien d’autre,  un petit froncement de sourcils qui créaient une Tour  Eiffel miniature sur son bas front. <em>Elle écrira que j’étais  de mauvaise humeur, se dit-il en haussant les épaules.  
@@ -2624,7 +2624,7 @@ Vers dix heures, on frappe à ma porte. C’est rare.  Je n’attends personne. 
 
 — C’est moi. Vous avez quelque chose à réparer ? 
 
-— Pas exactement. Je m’appelle Youssef, j’habite  au 414. Je suis mécanicien, et j’ai entendu dire que  vous étiez bricoleur. J’ai un problème avec ma radio  de voiture et personne au garage ne sait comment la  réparer. C’est un vieux modèle Blaupunkt, allemand,  des années quatre-vingt. 
+— Pas exactement. Je m’appelle [Youssef](414), j’habite  au 414. Je suis mécanicien, et j’ai entendu dire que  vous étiez bricoleur. J’ai un problème avec ma radio  de voiture et personne au garage ne sait comment la  réparer. C’est un vieux modèle Blaupunkt, allemand,  des années quatre-vingt. 
 
 
 Je le fais entrer. Il sort l’appareil de son sac avec  précaution. Une belle pièce, effectivement. Le boîtier chromé brille encore malgré les années. 
@@ -2684,7 +2684,7 @@ Jacqueline. Elle me manque encore, même après  cinq ans. Mais je ne sais pas c
 
 Le soir tombe. Je retourne à mon établi. La Blaupunkt  révèle ses secrets petit à petit. Un condensateur grillé,  comme je le pensais. Je cherche dans mes réserves,  trouve une pièce de rechange. En soudant le nouveau  composant, mes mains ne tremblent pas. C’est la  seule chose qui me donne encore cette sensation de  contrôle. 
 
-Vers vingt heures, j’entends de la musique qui monte  du rez-de-chaussée. Christelle, la gardienne, doit  avoir de la visite. Leurs rires traversent le plancher. Je  souris malgré moi. La vie continue, même quand on a  l’impression qu’elle s’est arrêtée. 
+Vers vingt heures, j’entends de la musique qui monte  du rez-de-chaussée. [Christelle](RDC), la gardienne, doit  avoir de la visite. Leurs rires traversent le plancher. Je  souris malgré moi. La vie continue, même quand on a  l’impression qu’elle s’est arrêtée. 
 
 Je teste la Blaupunkt. Elle fonctionne.  
 
@@ -2705,7 +2705,7 @@ Pour l’instant, je suis content d’être ici, dans mon  appartement du premie
  `,
 210: `Ce matin, je me suis levé en trombe. Encore un cri.  Encore une dispute. Ce n’est pas tant le bruit, ni le fait  d’être réveillé, qui me gêne, mais plutôt de ne pas  comprendre pourquoi elle ne le quitte pas.  
 
-La première fois que j’ai rencontré Lisa Verpillet, c’était  quelques jours après mon arrivée dans l’immeuble. Je  montais mon dernier carton à l’étage lorsqu’un homme  est sorti de l’appartement d’à côté, suivi de cette  femme qui lui jetait un slip au visage. Le sien, j’imagine. 
+La première fois que j’ai rencontré [Lisa Verpillet](212), c’était  quelques jours après mon arrivée dans l’immeuble. Je  montais mon dernier carton à l’étage lorsqu’un homme  est sorti de l’appartement d’à côté, suivi de cette  femme qui lui jetait un slip au visage. Le sien, j’imagine. 
 
  — Dégage ! criait-elle. 
 
@@ -2825,7 +2825,7 @@ Un parfum de pureté dans toute cette saleté  émotionnelle.
 Les jours suivants, j’ai commencé à guetter le bruit  de ses pas dans le couloir. C’était devenu une routine  pathétique, je le savais, mais je ne pouvais pas m’en  empêcher. Elle passait, me saluait, parfois s’arrêtait.  
 
 
-On parlait de tout et de rien — du travail, du temps,  des voisins trop curieux. Madame Leclercq1 qui faisait  trop de bruit avec son aspirateur, Francis2 le rockeur  qui fumait sur le balcon, la petite Mathilde3 qui courait  partout. Mais jamais de lui. 
+On parlait de tout et de rien — du travail, du temps,  des voisins trop curieux. [Madame Leclercq](312) qui faisait  trop de bruit avec son aspirateur, [Francis](608) le rockeur  qui fumait sur le balcon, la petite [Mathilde](RDC) qui courait  partout. Mais jamais de lui. 
 
 Jamais de ce qui pesait derrière ses silences. C’était  une règle tacite entre nous. Comme si parler de cet  homme aurait brisé notre bulle fragile, aurait rendu réel  ce cauchemar qu’elle vivait. Elle souriait souvent, mais  je voyais bien que ses yeux, eux, ne suivaient plus.  
 
@@ -2883,7 +2883,7 @@ Ce soir-là, allongée dans mon lit, je fixe le plafond  en écoutant. Grincemen
 Je consulte mon téléphone : 23h04. Ça dure depuis  quinze jours maintenant. Au début, j’ai cru à un meuble  qu’on déplaçait. Puis à des travaux. Mais personne ne  fait des travaux tous les soirs à la même heure. 
 
 
-Le lendemain matin, je croise Francis dans le hall. Le  vieux rockeur du 608 qui rentre de son shift de nuit en  taxi. Il a l’air épuisé, sa barbe grise mal peignée, mais il  me salue poliment. 
+Le lendemain matin, je croise [Francis](608) dans le hall. Le  vieux rockeur du 608 qui rentre de son shift de nuit en  taxi. Il a l’air épuisé, sa barbe grise mal peignée, mais il  me salue poliment. 
 
 — Monsieur Paquette, vous n’entendez rien de bizarre  la nuit ? 
 
@@ -2897,7 +2897,7 @@ Il fronce les sourcils, s’arrête.
 — Des grincements. Au septième. 
 
 
-— Le septième ? Y a presque personne là-haut. En plus,  je sais qu’une vieille dame y habite, c’est impossible  que ce soit elle, Arlette je crois. Elle sort jamais. 
+— Le septième ? Y a presque personne là-haut. En plus,  je sais qu’une [vieille](706) dame y habite, c’est impossible  que ce soit elle, Arlette je crois. Elle sort jamais. 
 
 
 — Justement. Ces bruits viennent de chez elle. Tous les  soirs à vingt-trois heures. 
@@ -2912,7 +2912,7 @@ Je ne suis pas convaincue. Réarranger ses meubles  tous les soirs au même mome
 
 Au bureau, je suis distraite. Les colonnes de chiffres se  brouillent devant mes yeux. Je pense aux grincements,  à cette régularité inquiétante.  
 
-À midi, j’appelle Christelle, la gardienne. 
+À midi, j’appelle [Christelle](RDC), la gardienne. 
 
 
 — Bonjour Madame Mercier, c’est Béatrice, du 610. 
@@ -3099,7 +3099,7 @@ Un grondement de moteur diesel approche et s’arrête.  8h50. Les portes s’ou
  
 L’agitation du matin retombe, remplacée par le  calme affairé des livraisons et des retraités qui font leurs  courses. C’est alors qu’un fracas de pas désordonnés  brise la mélodie de la rue. 
 
-Ce n’est pas une course ; c’est une panique. Antony,  un voisin, un peintre qui ne sort que très rarement de  son atelier, déboule au coin de la rue. Il est en costume,  un costume qui ne lui va guère, trop grand par endroits,  trop petit à d’autres. Sa cravate est défaite et son front  brille de sueur malgré la fraîcheur. Il tient un téléphone  portable à l’oreille, visiblement sans interlocuteur, et  peste contre l’appareil. 
+Ce n’est pas une course ; c’est une panique. [Antony](512),  un voisin, un peintre qui ne sort que très rarement de  son atelier, déboule au coin de la rue. Il est en costume,  un costume qui ne lui va guère, trop grand par endroits,  trop petit à d’autres. Sa cravate est défaite et son front  brille de sueur malgré la fraîcheur. Il tient un téléphone  portable à l’oreille, visiblement sans interlocuteur, et  peste contre l’appareil. 
 
 
 — Allez, allez... Foutue batterie !» 
@@ -3304,7 +3304,7 @@ Je descends de mon immeuble et je vois des flaques  d’eau partout. Cet orage �
 Elle est en train d’ouvrir sa boutique de fleurs, je dois  passer après et acheter un nouveau bouquet de  renoncules pour mon salon. 
 
 
-À midi je toque et entre chez Marie-Chantal. J’ai des  mains prises par mes projets papier c’est pourquoi je ne  pouvais pas sonner. Heureusement, elle m’attendait à  côté de la porte. 
+À midi je toque et entre chez [Marie-Chantal](110). J’ai des  mains prises par mes projets papier c’est pourquoi je ne  pouvais pas sonner. Heureusement, elle m’attendait à  côté de la porte. 
 
 
 — Bonjour Susanna ! Je pensais que tu serais en retard  comme d’habitude ma petite. 
@@ -3342,7 +3342,7 @@ Mais j’ai un problème : je suis allergique aux chats. Ça  veut dire que je n
 Elle a mentionné ses vœux rapidement, je dois ajouter  une nouvelle armoire à sa chambre, chercher une  nouvelle télévision et aussi un nouveau tableau.  
 
 
-Je dois appeler Thomas, il sait comment m’aider. Je  sors de son appartement vers 14 heures. 
+Je dois appeler [Thomas](102), il sait comment m’aider. Je  sors de son appartement vers 14 heures. 
 
 
 Je suis déprimée, je monte chez moi directement. J’entre dans mon appartement chaleureux, je  commence à me préparer un déjeuner.  
@@ -3400,7 +3400,7 @@ Elle se lève, étire son dos qui craque. Dans le miroir de  l’entrée, elle a
 Cheveux attachés n’importe comment, cernes  violettes, t-shirt taché de café. Elle ne se reconnaît plus  vraiment. La Samira d’avant portait des tailleurs, se  maquillait, souriait aux collègues dans l’ascenseur.  Celle d’aujourd’hui ne quitte l’appartement que pour  faire ses courses au dépanneur du coin. 
 
 
-Un bruit dans le couloir. Des pas lourds, une voix  masculine qui grogne. C’est Thomas,1 le voisin du 102,  qui monte probablement une de ses radios vintage. Elle  l’a croisé deux fois depuis son arrivée en septembre.  Il a hoché la tête, elle a murmuré bonjour. Fin de  l’interaction. 
+Un bruit dans le couloir. Des pas lourds, une voix  masculine qui grogne. C’est [Thomas](102), le voisin du 102,  qui monte probablement une de ses radios vintage. Elle  l’a croisé deux fois depuis son arrivée en septembre.  Il a hoché la tête, elle a murmuré bonjour. Fin de  l’interaction. 
 
 
 Samira retourne à son ordinateur. Les mots défilent sur  l’écran mais elle ne les lit plus vraiment.  
@@ -3620,7 +3620,7 @@ Ce soir, comme tous les soirs depuis trois semaines,  j’attends.
 J’attends le bruit. 
 
 
-Il commence toujours vers minuit quinze. Un grattement  léger, presque imperceptible, qui semble provenir du  mur mitoyen entre mon appartement et celui du 110.  Marie-Chantal, l’infirmière retraitée aux trois chats. Une  femme discrète que je croise parfois dans l’escalier,  toujours souriante, toujours pressée. 
+Il commence toujours vers minuit quinze. Un grattement  léger, presque imperceptible, qui semble provenir du  mur mitoyen entre mon appartement et celui du 110.  [Marie-Chantal](110), l’infirmière retraitée aux trois chats. Une  femme discrète que je croise parfois dans l’escalier,  toujours souriante, toujours pressée. 
 
 Au début, j’ai pensé que c’était Pompom, Ronron ou  Clovis qui grattaient contre le mur. Les chats font ça.  Mais le son est différent. Trop régulier. Trop… intentionnel. 
 
@@ -3691,7 +3691,7 @@ Nous nous regardons, une inquiétude partagée  flottant entre nous.
 Le soir même, je frappe à nouveau. Cette fois, avec  plus d’insistance. Les miaulements se font plus forts,  presque désespérés. Je sens une odeur bizarre qui filtre  sous la porte. Pas de pourriture, non. Quelque chose de  plus subtil. De la terre humide, peut-être. 
 
 
-Mon téléphone à la main, je compose le numéro de  Christelle, la gardienne. 
+Mon téléphone à la main, je compose le numéro de  [Christelle](RDC), la gardienne. 
 
 
 — Allô ? 
@@ -3720,10 +3720,10 @@ Sur la table du salon, un carnet ouvert. Je m’approche  pendant que Christelle
 <em>16 janvier.Lucille est venue aujourd’hui. On a parlé  d’Achille. Elle porte encore son chagrin comme un  manteau trop lourd. J’ai essayé de l’alléger. Je ne sais  pas si j’ai réussi. 
 
 
-18 janvier. Francis a joué du saxophone toute la nuit.  Ça me rappelle Antoine. Je me demande si la musique  adoucit vraiment les cœurs brisés. 
+18 janvier. [Francis](608) a joué du saxophone toute la nuit.  Ça me rappelle Antoine. Je me demande si la musique  adoucit vraiment les cœurs brisés. 
 
 
-21 janvier. Pompom a trouvé quelque chose derrière  le radiateur. Un vieux sachet de graines. Des roses. Je  ne les planterai pas. Pas après ce qui s’est passé. </em>
+21 janvier. [Pompom](110) a trouvé quelque chose derrière  le radiateur. Un vieux sachet de graines. Des roses. Je  ne les planterai pas. Pas après ce qui s’est passé. </em>
 
 
 Christelle revient de la chambre, le visage pâle. — Elle n’est pas là. Mais son lit est fait, ses affaires sont  toutes à leur place. C’est comme si elle était sortie pour  une course et n’était jamais revenue. 
@@ -3828,7 +3828,7 @@ Je me suis surprise à sourire.
 Elle s’appelait Marianne.  
 
 
-— Agnès, pourriez-vous me préparer le bouquet pour  Madame Ferland, appartement 206 ?  
+— Agnès, pourriez-vous me préparer le bouquet pour  [Madame Ferland](206), appartement 206 ?  
 
 
 
@@ -3930,10 +3930,10 @@ Ces explications mystérieuses me laissaient sur ma  faim.
 Elle m’en offrait, parfois, lorsque je les regardais avec  insistance. Un joli bouquet de roses blanches ornait  donc notre salon de temps à autre.  
 
 
-Pompom, le chat d’une voisine de palier, leur rendait  parfois la vie compliquée. Il parvenait à s’échapper de  son appartement et, pour je ne sais quelle raison, se  réfugiait toujours dans le nôtre. Je le retrouvais parfois le  soir, après les cours, affalé sur mon lit.  
+[Pompom](110), le chat d’une voisine de palier, leur rendait  parfois la vie compliquée. Il parvenait à s’échapper de  son appartement et, pour je ne sais quelle raison, se  réfugiait toujours dans le nôtre. Je le retrouvais parfois le  soir, après les cours, affalé sur mon lit.  
 
 
-Il n’était pas méchant, et j’étais une grande amoureuse  des animaux. J’aimais ses visites impromptues. Il ne se  dirigeait, en revanche, jamais vers le numéro 118.  
+Il n’était pas méchant, et j’étais une grande amoureuse  des animaux. J’aimais ses visites impromptues. Il ne se  dirigeait, en revanche, jamais vers le [numéro 118](118).  
 
 
 Fatima, la résidente, ne se montrait pas. Je crois n’avoir  jamais vu sa porte ouverte, ni n’avoir jamais entendu un  seul son en provenance de son appartement. J’allais  parfois jusqu’à douter de sa présence.  
@@ -3948,7 +3948,7 @@ Les jours s’éteignaient de plus en plus tôt et le froid  s’installait dans
 Cela n’empêchait pourtant pas les gens de vivre : les  magasins, les bars, les restaurants débordaient de vie.  
 
 
-Une nuit où je rentrai un peu tard dans l’immeuble,  je trouvai Jocelyn, habitant au troisième, à observer la  devanture de la boutique d’Agnès.  
+Une nuit où je rentrai un peu tard dans l’immeuble,  je trouvai [Jocelyn](300), habitant au troisième, à observer la  devanture de la boutique d’Agnès.  
 
 
 Lorsque je l’ai interpellé, il sembla sortir d’une profonde  rêverie. Nous remontâmes les escaliers ensemble et  prîmes le temps d’échanger quelques mots.  
@@ -3976,7 +3976,7 @@ Il boit son café en regardant par la fenêtre. La cour  intérieure de l’imme
 Parfait. Il déteste croiser les voisins. Ces échanges  forcés, ces sourires de politesse, ces <em>comment allez vous</em> qui n’attendent aucune vraie réponse.  
 
 
-Thomas du 102 est gentil mais bavard. Marie-Chantal  du 110 pose trop de questions. Agnès du 112 est trop  joyeuse le matin. 
+[Thomas](102) du 102 est gentil mais bavard. [Marie-Chantal](110) du 110 pose trop de questions. Agnès du 112 est trop  joyeuse le matin. 
 
 
 Marco préfère l’anonymat. Il sort de chez lui à sept  heures quinze, descend l’escalier sans faire de bruit,  traverse le hall comme un fantôme et disparaît dans la  rue avant que quiconque puisse l’intercepter. 
@@ -4117,7 +4117,7 @@ Il est onze heures du matin et je n’ai rien fait de ma  journée. J’ai deux 
 Je me lève pour me faire un nouveau café quand on  frappe à la porte. Trois coups secs, autoritaires.  Mon cœur fait un bond stupide. Les huissiers frappent  comme ça. Mais non, c’est trop tôt. J’ai encore une  semaine avant la prochaine échéance. 
 
 
-J’ouvre. C’est Christelle, la gardienne. Elle tient un  paquet. 
+J’ouvre. C’est [Christelle](RDC), la gardienne. Elle tient un  paquet. 
 
 
 — Monsieur Benmohamed, ça vient d’arriver pour  vous. Le livreur ne voulait pas le laisser sans signature. Je prends le colis, surpris. Je n’ai rien commandé. Sur  l’étiquette, pas d’expéditeur. Juste mon nom et mon  adresse. 
@@ -4140,7 +4140,7 @@ Je sors le vinyle, le tiens à la lumière. Aucune rayure,  impeccable. Mais je 
 
 J’en avais une, il y a des années, avant que mon ex femme parte avec la moitié de mes affaires. Depuis, je  n’ai jamais racheté. 
 
-Je descends au rez-de-chaussée, frappe chez  Thomas, le vieux réparateur de radios du 102. Il ouvre,  étonné. 
+Je descends au rez-de-chaussée, frappe chez  [Thomas](102), le vieux réparateur de radios du 102. Il ouvre,  étonné. 
 
 
 — Rafik ? Tout va bien ? 
@@ -4378,6 +4378,47 @@ const Apartmentpage = ({ handlePageNavigation, selectedApt, apartments }) => {
 
   }, [selectedApt, currentText, hasContent, isSpeaking, speechSupported]);
 
+   // Fonction pour transformer les liens markdown en liens cliquables
+  const createHypertextLinks = (htmlText) => {
+    if (!htmlText) return htmlText;
+
+    // Regex pour détecter [texte](appartement)
+    const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
+    
+    const processedText = htmlText.replace(linkRegex, (match, linkText, apartment) => {
+      return `<a href="#" class="apartment-link" data-apartment="${apartment}">${linkText}</a>`;
+    });
+
+    return processedText;
+  };
+
+  // Gérer les clics sur les liens hypertextes
+  const handleHypertextClick = useCallback((e) => {
+    if (e.target.classList.contains('apartment-link')) {
+      e.preventDefault();
+      const targetApartment = e.target.getAttribute('data-apartment');
+      
+      // Arrêter la lecture audio si en cours
+      if (isSpeaking) {
+        window.speechSynthesis.cancel();
+        setIsSpeaking(false);
+      }
+      
+      // Naviguer vers l'appartement cible
+      handlePageNavigation(targetApartment);
+
+      window.scrollTo({top: 0, behavior: 'smooth'});
+    }
+  }, [isSpeaking, handlePageNavigation]);
+
+  // Ajouter l'écouteur d'événements pour les liens
+  useEffect(() => {
+    document.addEventListener('click', handleHypertextClick);
+    return () => {
+      document.removeEventListener('click', handleHypertextClick);
+    };
+  }, [handleHypertextClick]);
+
   const goHome = () => {
      // Arrêter la lecture si en cours
     if (isSpeaking) {
@@ -4605,7 +4646,7 @@ La rose blanche pourrait être ${roseBlanche}. Et pour t'inscrire dans l'ambianc
                 __html:
                   selectedApt === "Fleuriste"
                     ? "Le fleuriste au rez-de-chaussée est inoccupé pour le moment, mais on peut imaginer l'odeur des roses et des lilas, et le bruit doux des ciseaux coupant les tiges..."
-                    : currentText,
+                    : createHypertextLinks(currentText),
               }}></div>
           ) : (
             // Texte si aucun contenu n'est présent
